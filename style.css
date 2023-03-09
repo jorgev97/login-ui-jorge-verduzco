@@ -3,7 +3,7 @@ display: flex;
 justify-content: center;
 min-width: 100vw;
 min-height: 100vh;
-align-content: center;
+align-items: center;
 }
 #bgvid{
     position: fixed;
@@ -17,12 +17,12 @@ align-content: center;
 
 .login-box {
     display: flex;
-    min-height: 50vh;
+    height: 50vh;
+    min-height: 200px;
     min-width: 38vw;
     flex-direction: column;
-    align-self: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: blueviolet;
     border-radius: 20%;
     box-shadow: 49px -22px 40px 0px rgba(0,0,0,0.75);
@@ -32,13 +32,11 @@ align-content: center;
     z-index: 1;
 
 }
-Log-In
 
-
-#username, #password-in {
+#password-in, #username{
  margin-top: 3px;
  border-radius: 10px; 
- background-color:rgb(243, 222, 196);  
+ background-color:rgb(239, 211, 176);  
 }
 #login-button {
     margin-top: 3px;
